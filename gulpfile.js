@@ -86,6 +86,7 @@ gulp.task('browserSync', function() {
             "./dist/*.*",
             "./dist/*.*",
             "./dist/**/*.*"],
+		ghostMode: false,
         server: {
             baseDir: "./dist"
         }

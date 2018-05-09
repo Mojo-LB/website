@@ -3,7 +3,7 @@ var width = canvas.offsetWidth,
     height = canvas.offsetHeight;
 
 // Decrease to improve performance
-var dotsAmount = 2300;
+var dotsAmount = 1300;
 
 var colors = [
     new THREE.Color('#ffffff'),
